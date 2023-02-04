@@ -1,0 +1,5 @@
+#вывести количество сотен числа
+if __name__ == '__main__':
+    number = int(input())
+    res = number % 1000 // 100
+    print(res)

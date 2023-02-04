@@ -1,0 +1,9 @@
+#является ли десятичная запись симметричной, выведет 1, если да
+if __name__ == '__main__':
+    V = int(input())
+    Axxx = V//1000
+    xBxx = V % 1000 // 100
+    xxBA = xBxx * 10 + Axxx
+    xxCD = V % 100
+    symmetry = xxBA - xxCD
+    print(symmetry + 1)
